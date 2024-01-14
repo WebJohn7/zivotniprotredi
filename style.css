@@ -24,6 +24,9 @@ header a{
     color: #eee;
     margin-right: 40px;
 }
+.des {
+    font-size: 17px;
+}
 /* carousel */
 .carousel{
     height: 100vh;
@@ -61,7 +64,7 @@ header a{
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
-    font-size: 5em;
+    font-size: 5.5em;
     font-weight: bold;
     line-height: 1.3em;
 }
@@ -90,12 +93,12 @@ header a{
 /* thumbail */
 .thumbnail{
     position: absolute;
-    bottom: 50px;
-    left: 50%;
+    bottom: 30px;
+    left: 55%;
     width: max-content;
     z-index: 100;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 .thumbnail .item{
     width: 150px;
@@ -305,5 +308,14 @@ header a{
     }
     .carousel .list .item .content .title{
         font-size: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .carousel .list .item .title,
+    .carousel .list .item .topic {
+        font-size: 4.4em;
+    }
+    .des {
+        font-size: 14px;
     }
 }

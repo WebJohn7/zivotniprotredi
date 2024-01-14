@@ -19,7 +19,7 @@ body {
 .app {
     background-color: #fff;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     margin: 50px auto 0;
     border-radius: 10px;
     padding: 30px;
@@ -84,4 +84,12 @@ footer {
     text-align: center;
     font-size: 1em;
     color: #fff;
+}
+@media (max-width: 576px) {
+    .sec {
+        padding: 50px;
+    }
+    .app {
+        padding: 24px;
+    }
 }

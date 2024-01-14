@@ -9,7 +9,7 @@ const question = [
         ]
     },
     {
-        question: "What does greenhouse gases causes?",
+        question: "What do greenhouse gases causes?",
         answers: [
             { text: "Climate change", correct: true},
             { text: "Deforestation", correct: false},
@@ -27,12 +27,12 @@ const question = [
         ]
     },
     {
-        question: "What percentage of CO2 emissions deforestation produced?",
+        question: "What is our environment?",
         answers: [
-            { text: "25%", correct: true},
-            { text: "5%", correct: false},
-            { text: "56%", correct: false},
-            { text: "14%", correct: false},
+            { text: "Everything around us", correct: true},
+            { text: "How we live", correct: false},
+            { text: "It only includes plants and animals, not human-made things", correct: false},
+            { text: "Weather", correct: false},
         ]
     },
     {
@@ -45,21 +45,12 @@ const question = [
         ]
     },
     {
-        question: "What's the biggest cause to climate change?",
+        question: "What's the biggest cause of climate change?",
         answers: [
             { text: "Pollution", correct: false},
             { text: "Hurricanes", correct: false},
             { text: "Earthquake ", correct: false},
             { text: "Deforestation", correct: true},
-        ]
-    },
-    {
-        question: "What can deforestation produced?",
-        answers: [
-            { text: "Pollution", correct: false},
-            { text: "CO2", correct: true},
-            { text: "Fossil fuels", correct: false},
-            { text: "Carbon dioxide", correct: true},
         ]
     },
 ];
